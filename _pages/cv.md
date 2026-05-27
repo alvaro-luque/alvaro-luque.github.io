@@ -11,26 +11,25 @@ redirect_from:
 
 Education
 ======
-* Ph.D in Version Control Theory, GitHub University, 2018 (expected)
-* M.S. in Jekyll, GitHub University, 2014
-* B.S. in GitHub, GitHub University, 2012
+* M.S. in Physics of Complex Systems, IFISC (Mallorca, Spain), 2022-2023
+* B.S. in Physics, University of Córdoba (Spain), 2017-2022
+
+Teaching
+======
+  <ul>{% for post in site.teaching reversed %}
+    {% include archive-single-cv.html %}
+  {% endfor %}</ul>
 
 Work experience
 ======
-* Spring 2024: Academic Pages Collaborator
-  * GitHub University
-  * Duties includes: Updates and improvements to template
-  * Supervisor: The Users
 
-* Fall 2015: Research Assistant
-  * GitHub University
+* Research assistant (03/2024-06/2025)
+  * University of Córdoba, Department of Electrical Engineering and Automation 
   * Duties included: Merging pull requests
-  * Supervisor: Professor Hub
 
-* Summer 2015: Research Assistant
-  * GitHub University
-  * Duties included: Tagging issues
-  * Supervisor: Professor Git
+* Research Assistant (11/2021-05/2022)
+  * University of Córdoba, TEP-215 research group (Physics for Renewable Energies)
+  * Mathematical study of global irradiance model for agrivoltaic simulations. Python development of a simulation environment to estimate the irradiance on the soil in a user-defined photovoltaic power plant, aiming to study the viability of different crop species across a typical meteorological year.
   
 Skills
 ======
@@ -46,17 +45,12 @@ Publications
   <ul>{% for post in site.publications reversed %}
     {% include archive-single-cv.html %}
   {% endfor %}</ul>
-  
+
+<!---
 Talks
 ======
   <ul>{% for post in site.talks reversed %}
     {% include archive-single-talk-cv.html  %}
-  {% endfor %}</ul>
-  
-Teaching
-======
-  <ul>{% for post in site.teaching reversed %}
-    {% include archive-single-cv.html %}
   {% endfor %}</ul>
   
 Service and leadership
