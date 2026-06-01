@@ -1,7 +1,7 @@
 ---
-title: "Temporary Lecturer"
+title: "Temporary Lecturer (01/2026-09/2026)"
 collection: teaching
-type: "Undergraduate course"
+type: 
 permalink: /teaching/2026-spring-teaching
 venue: "University of Córdoba, Department of Applied Mathematics"
 date: 2026-02-01
