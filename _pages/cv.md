@@ -25,11 +25,11 @@ Work experience
 
 * Research assistant (03/2024-06/2025)
   * University of Córdoba, Department of Electrical Engineering and Automation 
-  * Duties included: Merging pull requests
+  * In charge of data management and analysis for the European-funded [INSIGNIA project](www.goinsignia.es), striving for the modernization of agriculture in shared irrigation systems in rural areas. Development of an assessment model of optimal energy use based on k-means clustering through high-frequency electrical demand data. Characterization and temporalization of clusterd consumption patterns. Development of layered Machine Learning algorithms for the identification of crops species using satellite imagery through crop indexes such as NDVI.
 
 * Research Assistant (11/2021-05/2022)
   * University of Córdoba, TEP-215 research group (Physics for Renewable Energies)
-  * Mathematical study of global irradiance model for agrivoltaic simulations. Python development of a simulation environment to estimate the irradiance on the soil in a user-defined photovoltaic power plant, aiming to study the viability of different crop species across a typical meteorological year.
+  * Mathematical study of global irradiance models for agrivoltaic simulations. Python development of a simulation environment to estimate the irradiance on the soil in a user-defined photovoltaic power plant, aiming to study the viability of different crop species across a typical meteorological year.
   
 Skills
 ======
