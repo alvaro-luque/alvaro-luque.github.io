@@ -12,7 +12,15 @@ redirect_from:
 Education
 ======
 * M.S. in Physics of Complex Systems, IFISC (Mallorca, Spain), 2022-2023
+  * **Thesis**: Big Data, memes, information diffusion in online social networks and opinion dynamics ([Link (IFISC page)](https://ifisc.uib-csic.es/en/publications/big-data-memes-information-diffusion-in-online-soc/)) 
 * B.S. in Physics, University of Córdoba (Spain), 2017-2022
+  * **Thesis**: Bifurcations in piecewise linear systems. Application to the Wien Bridge oscillator ([Link](files/TFG_final.pdf){:target="_blank" rel="noopener"})
+
+Publications
+======
+  <ul>{% for post in site.publications reversed %}
+    {% include archive-single-cv.html %}
+  {% endfor %}</ul>
 
 Teaching
 ======
@@ -29,19 +37,6 @@ Work experience
 
 * Research Assistant (11/2021-05/2022)
   * University of Córdoba, TEP-215 research group (Physics for Renewable Energies)
-  * Mathematical study of global irradiance models for agrivoltaic simulations. Python development of a simulation environment to estimate the irradiance on the soil in a user-defined photovoltaic power plant, aiming to study the viability of different crop species across a typical meteorological year.
-  
-Skills
-======
-* Skill 1
-* Skill 2
-  * Sub-skill 2.1
-  * Sub-skill 2.2
-  * Sub-skill 2.3
-* Skill 3
+  * Mathematical study of global irradiance models for agrivoltaic simulations. Python development of a simulation environment to estimate the irradiance on the soil in a user-defined photovoltaic power plant, aiming to study the viability of different crop species across a typical meteorological year. 
 
-Publications
-======
-  <ul>{% for post in site.publications reversed %}
-    {% include archive-single-cv.html %}
-  {% endfor %}</ul>
+
