@@ -14,7 +14,7 @@ Education
 * M.S. in Physics of Complex Systems, IFISC (Mallorca, Spain), 2022-2023
   * **Thesis**: Big Data, memes, information diffusion in online social networks and opinion dynamics ([Link (IFISC page)](https://ifisc.uib-csic.es/en/publications/big-data-memes-information-diffusion-in-online-soc/)) 
 * B.S. in Physics, University of Córdoba (Spain), 2017-2022
-  * **Thesis**: Bifurcations in piecewise linear systems. Application to the Wien Bridge oscillator ([Link](files/TFG_final.pdf){:target="_blank" rel="noopener"})
+  * **Thesis**: Bifurcations in piecewise linear systems. Application to the Wien Bridge oscillator ([Link](/files/TFG_final.pdf){:target="_blank" rel="noopener"})
 
 Publications
 ======
