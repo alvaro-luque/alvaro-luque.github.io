@@ -6,16 +6,22 @@ collection: portfolio
 
 ## Introduction
 For this project, the KPZ equation in one spatial dimension is simulated, i.e., the non-linear stochastic partial differential equation (SPDE) describing the height of a surface that grows over time:
-\[\frac{\partial h(x,t)}{\partial t}=\nu\frac{\partial^2 h(x,t)}{\partial x^2}+\frac{\lambda}{2}\left(\frac{\partial h(x,t)}{\partial x}\right)^2+\xi(x,t),\]
+
+$$\frac{\partial h(x,t)}{\partial t}=\nu\frac{\partial^2 h(x,t)}{\partial x^2}+\frac{\lambda}{2}\left(\frac{\partial h(x,t)}{\partial x}\right)^2+\xi(x,t),$$
+
 where $\nu, \lambda$ are parameters of the model and $\xi(x,t)$ represents a Gaussian white noise with zero mean and delta-like correlation in both $x,t$. The growing surface is characterized by its **width** $w(L,t)$, where $L$ is the size of the system, defined via
-\[w^2(L,t)=\left\langle \overline{h^2(t)}-\overline{h(t)}^2\right\rangle.\]
+
+$$w^2(L,t)=\left\langle \overline{h^2(t)}-\overline{h(t)}^2\right\rangle.$$
 
 This width can be expressed through dynamic scaling relations which introduce the **roughness exponent** $\alpha$, the **growth exponent** $\beta$ and the **dynamic exponent** $z$:
-\[w^2(L,t)=t^{2\beta}F\left(\frac{t}{L^z}\right)=L^{2\alpha}\tilde{F}\left(\frac{t}{L^z}\right)\].
+
+$$w^2(L,t)=t^{2\beta}F\left(\frac{t}{L^z}\right)=L^{2\alpha}\tilde{F}\left(\frac{t}{L^z}\right)$$.
+
 For one-dimensional systems, the KPZ universality class is characterized by the following values of the critical exponents: $\alpha=1/2,\ \beta=1/3,\ z=3/2$.
 
 The aim of the project is to evaluate the impact of the lattice size $L$ and the parameter $\lambda$ on the estimation of the critical exponents $\alpha$ and $\beta$. To do this, the integration time step $\Delta t$ will be fixed, as well as the noise strength $D$ and the parameter $\nu$. The former will be fixed to $\Delta t=0.1$ and $2D=\nu=1$ and to ensure numerical integration stability the Courant criterion will be used to extract the minimum stable spatial step:
-\[\frac{2\nu\Delta t}{(\Delta x)^2}\leq 1.\]
+
+$$\frac{2\nu\Delta t}{(\Delta x)^2}\leq 1.$$
 
 The parameter $\lambda$ will take values $0.5,\ 1,\ 2,\ 3$ and the lattice size $L$ will range from $L=50$ to $L=200$ in steps of $50$. For each value of $\lambda$, 4 curves will be extracted for each corresponding $L$. Numerically, the stochastic Heun method has been implemented in Python with a forward-time, centered-space (FTCS) scheme.
 
