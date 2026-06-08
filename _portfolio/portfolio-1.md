@@ -15,7 +15,7 @@ $$w^2(L,t)=\left\langle \overline{h^2(t)}-\overline{h(t)}^2\right\rangle.$$
 
 This width can be expressed through dynamic scaling relations which introduce the **roughness exponent** $\alpha$, the **growth exponent** $\beta$ and the **dynamic exponent** $z$:
 
-$$w^2(L,t)=t^{2\beta}F\left(\frac{t}{L^z}\right)=L^{2\alpha}\tilde{F}\left(\frac{t}{L^z}\right)$$.
+$$w^2(L,t)=t^{2\beta}F\left(\frac{t}{L^z}\right)=L^{2\alpha}\tilde{F}\left(\frac{t}{L^z}\right).$$
 
 For one-dimensional systems, the KPZ universality class is characterized by the following values of the critical exponents: $\alpha=1/2,\ \beta=1/3,\ z=3/2$.
 
